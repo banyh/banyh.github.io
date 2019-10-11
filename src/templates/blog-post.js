@@ -4,6 +4,8 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import "./blog-post.css"
 
+import "katex/dist/katex.min.css"
+
 import Sidebar from "../components/sidebar/Sidebar"
 import TechTag from "../components/tags/TechTag"
 import CustomShareBlock from "../components/CustomShareBlock"
@@ -11,7 +13,7 @@ import CustomShareBlock from "../components/CustomShareBlock"
 const BlogPost = (props) => {
   const post = props.data.markdownRemark
   const labels = props.data.site.siteMetadata.labels
-  const siteName = props.data.site.siteMetadata.title 
+  const siteName = props.data.site.siteMetadata.title
   const siteUrl = props.data.site.siteMetadata.url
   const url = `${siteUrl}${props.pageContext.slug}`;
   const tags = post.frontmatter.tags
@@ -62,9 +64,9 @@ export const query = graphql`
           title
           labels {
               tag
-              tech 
-              name 
-              size 
+              tech
+              name
+              size
               color
           }
         }
