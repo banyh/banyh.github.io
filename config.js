@@ -36,7 +36,7 @@ module.exports = {
       tech: "Git",
       name: "DiGitMerge",
       size: 20,
-      color: "white",
+      color: "goldenrod",
     },
     {
       tag: "deeplearning",
@@ -51,6 +51,20 @@ module.exports = {
       name: "FaDiceD6",
       size: 20,
       color: "violet",
+    },
+    {
+      tag: "ubuntu",
+      tech: "Ubuntu",
+      name: "FaUbuntu",
+      size: 20,
+      color: "green",
+    },
+    {
+      tag: "hardware",
+      tech: "Hardware",
+      name: "FaDesktop",
+      size: 20,
+      color: "deepskyblue",
     },
   ],
 }
