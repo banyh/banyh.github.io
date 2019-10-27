@@ -87,5 +87,12 @@ module.exports = {
       size: 20,
       color: "darkolivegreen",
     },
+    {
+      tag: "others",
+      tech: "Others",
+      name: "FaRegLaughBeam",
+      size: 20,
+      color: "darkorchid",
+    },
   ],
 }
